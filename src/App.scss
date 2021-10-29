@@ -1,0 +1,48 @@
+*{
+  box-style: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: linear-gradient(to right, #3494e6, #ec6ead);
+  /*background-image: url("ViceCity.jpeg");
+  background-color: #d9d9d9;
+  background-size: cover;*/
+}
+
+.navbar{
+  width: 100vw;
+  background-color: blue;
+  color:white;
+
+  ul{
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5rem;
+  }
+  
+  li{
+    font-weight:bold;
+    padding-right: 2rem;
+  }
+
+  li:first-child{
+    margin-right:auto;
+    margin-left:2rem;
+    font-size: 1.5rem;
+  }
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns:1fr;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
+}
+
+.card{
+}
+
